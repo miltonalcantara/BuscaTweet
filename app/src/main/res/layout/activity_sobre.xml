@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEEEEE"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/id_icone_texto"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.1"
+        android:background="@android:color/white"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="invisible">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.2"
+            android:baselineAligned="false"
+            android:gravity="center_horizontal">
+
+            <LinearLayout
+                android:id="@+id/espaco"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.15"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.1"
+                android:gravity="center_horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|bottom"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/descricao_icone_milton"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_milton" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/espaco2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.15"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.24"
+            android:gravity="center_horizontal|center_vertical"
+            android:paddingLeft="45dp"
+            android:paddingRight="45dp">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sobre_o_app"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.27"
+        android:background="@color/colorPrimary"
+        android:gravity="center_horizontal|center_vertical">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            app:backgroundTint="#FFF"
+            app:borderWidth="0dp"
+            app:elevation="4dp"
+            app:srcCompat="@drawable/ic_email" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_web"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            app:backgroundTint="#FFF"
+            app:borderWidth="0dp"
+            app:elevation="4dp"
+            app:srcCompat="@drawable/ic_home" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_pessoal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:backgroundTint="#FFF"
+            app:borderWidth="0dp"
+            app:elevation="4dp"
+            app:srcCompat="@drawable/ic_facebook" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<resources>
+
+    <!--Menu-->
+    <string name="busca">SEARCH</string>
+    <string name="historico">HISTORY</string>
+
+    <!--Tela Principal-->
+    <string name="palavra_para_pesquisa">Word to search</string>
+    <string name="procurar">SEARCH</string>
+
+    <!--Resultado da Pesquisa-->
+    <string name="label_tweet_search_loader">Loading tweets&#8230;</string>
+    <string name="label_tweets_not_found">Tweets not found</string>
+
+    <!--Lista de Pesquisas-->
+    <string name="pesquisa_limpa">Search list cleaned</string>
+    <string name="icone_da_lista">Icon list</string>
+
+    <!-- SOBRE -->
+    <string name="title_activity_sobre">About</string>
+    <string name="sobre_o_app"><b>Milton Alcântara</b> is designer and developer, works in the area of Design since 2008 and in IT since 2012 which has participated in computer fairs and was awarded 3 times.</string>
+    <string name="descricao_icone_milton">Application developer Icon</string>
+</resources>

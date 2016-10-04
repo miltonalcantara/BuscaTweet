@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">BuscaTweet</string>
+
+    <!--Menu-->
+    <string name="busca">BUSCA</string>
+    <string name="historico">HISTÓRICO</string>
+    <string name="trends">TRENDS</string>
+
+    <!--Tela Principal-->
+    <string name="palavra_para_pesquisa">Palavra para pesquisa</string>
+    <string name="procurar">PROCURAR</string>
+
+    <!--Resultado da Pesquisa-->
+    <string name="label_tweet_search_loader">Carregando tweets&#8230;</string>
+    <string name="label_tweets_not_found">Tweets não encontrados</string>
+
+    <!--Lista de Pesquisas-->
+    <string name="pesquisa_limpa">Lista de pesquisa limpa</string>
+    <string name="icone_da_lista">Ícone da lista</string>
+
+    <!-- SOBRE -->
+    <string name="title_activity_sobre">Sobre</string>
+    <string name="sobre_o_app"><b>Milton Alcântara</b> é designer e programador, atua na área de Design desde 2008 e na área de TI a partir de 2012 onde já participou de feiras de computação e foi premiado 3 vezes.</string>
+    <string name="descricao_icone_milton">Ícone do desenvolvedor do aplicativo</string>
+
+
+</resources>
